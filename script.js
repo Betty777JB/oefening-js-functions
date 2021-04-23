@@ -1,7 +1,7 @@
 
 // fuction declaration
 function twoNumbers1(number1, number2) {
-return Math.pow(Math.pow(number1, 2) + Math.pow(number2, 2), 2);
+    return Math.pow(Math.pow(number1, 2) + Math.pow(number2, 2), 2);
 }
 
 // fuction declaration
@@ -16,7 +16,9 @@ return Math.pow(Math.pow(number1, 2) + Math.pow(number2, 2), 2);
 };
 
 // arrow function declaration
-let twoNumbers3 = (number1, number2) => Math.pow(Math.pow(number1, 2) + Math.pow(number2, 2), 2);
+let twoNumbers3 = (number1, number2) => {
+ return Math.pow(Math.pow(number1, 2) + Math.pow(number2, 2), 2);
+};
 
 
 
